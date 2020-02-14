@@ -179,9 +179,6 @@ void MapaBudynki::PostawBudynek(int X, int Y)
 		NowyLudz();
 		mapaBud[X][Y] = TmpBud;
 	}
-	else
-		std::cout << "Nie uda³o sie postawic";
-	cout << LudziePotrzeba;
 	LudzieDodaj(X,Y);
 }
 
